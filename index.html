@@ -3,959 +3,382 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maria's Kitchen — Styleguide Jämförelse</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Anybody:wght@400;500;600&family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Outfit:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,400;1,9..144,500;1,9..144,700&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Instrument+Serif:ital@0;1&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Unbounded:wght@300;400;500;600;700;800;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Bitter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=Manrope:wght@300;400;500;600;700;800&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Young+Serif&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Albert+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=General+Sans:wght@300;400;500;600;700&family=Lexend:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,300;1,6..72,400;1,6..72,500&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Gilda+Display&family=Noto+Serif+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Geologica:wght@300;400;500;600;700;800&family=Cardo:ital,wght@0,400;0,700;1,400&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Prata&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+<title>Maria's Kitchen — The Harvest Logo</title>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&family=Gilda+Display&display=swap" rel="stylesheet">
 <style>
-  /* ═══════════════════════════════════════════
-     THEME 1: WARM SAFFRON
-     Thin elegant serif + neutral sans + geometric accent
-  ═══════════════════════════════════════════ */
-  [data-theme="saffron"] {
-    --accent:#C8860A; --accent-deep:#A66E08; --accent-light:#E8B84A;
-    --bg-page:#FFFDF7; --bg-warm:#F5F0E8; --bg-card:#FFFFFF;
-    --bg-dark:#2A2118; --bg-dark-mid:#4A3828;
-    --text-primary:#2A2118; --text-heading:#2A2118; --text-sub:#5C4A35;
-    --text-muted:#8B7355; --text-on-dark:#F5F0E8; --border:#EDE6D8;
-
-    --font-display:'Cormorant Garamond', Georgia, serif;
-    --font-body:'Libre Franklin', sans-serif;
-    --font-accent:'Anybody', sans-serif;
-
-    --hero-weight:300; --hero-spacing:-0.03em; --hero-style:normal;
-    --heading-weight:400; --label-weight:600; --label-spacing:0.15em;
-    --label-size:0.7rem; --btn-radius:4px; --card-radius:8px;
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Geologica', sans-serif;
+    background: #F5F0E8;
+    color: #1C2E1C;
+    min-height: 100vh;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 2: DEEP FOREST
-     Heavy dramatic serif + round friendly sans + bold geometric accent
-  ═══════════════════════════════════════════ */
-  [data-theme="forest"] {
-    --accent:#2D6A4F; --accent-deep:#1B4332; --accent-light:#52B788;
-    --bg-page:#FAFAF5; --bg-warm:#F0EDE5; --bg-card:#FFFFFF;
-    --bg-dark:#1B2A21; --bg-dark-mid:#2D4A3A;
-    --text-primary:#1A1C1A; --text-heading:#1B2A21; --text-sub:#3D4F44;
-    --text-muted:#6B7D72; --text-on-dark:#F0EDE5; --border:#E2DDD3;
-
-    --font-display:'DM Serif Display', Georgia, serif;
-    --font-body:'Plus Jakarta Sans', sans-serif;
-    --font-accent:'Syne', sans-serif;
-
-    --hero-weight:400; --hero-spacing:-0.01em; --hero-style:normal;
-    --heading-weight:400; --label-weight:700; --label-spacing:0.12em;
-    --label-size:0.72rem; --btn-radius:6px; --card-radius:10px;
+  .page-header {
+    text-align: center;
+    padding: 48px 24px 32px;
+  }
+  .page-header h1 {
+    font-family: 'Gilda Display', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1C2E1C;
+    margin-bottom: 8px;
+  }
+  .page-header .subtitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #6B7E6B;
+    font-weight: 500;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 3: MIDNIGHT SPICE
-     Bold high-contrast serif + editorial body serif + clean geometric accent
-  ═══════════════════════════════════════════ */
-  [data-theme="midnight"] {
-    --accent:#C45E3E; --accent-deep:#A34830; --accent-light:#E8946E;
-    --bg-page:#FAF8F5; --bg-warm:#F2EDE6; --bg-card:#FFFFFF;
-    --bg-dark:#1C1512; --bg-dark-mid:#3A2A22;
-    --text-primary:#1C1512; --text-heading:#1C1512; --text-sub:#4A3B32;
-    --text-muted:#7D6B5E; --text-on-dark:#F2EDE6; --border:#E5DDD3;
-
-    --font-display:'Playfair Display', Georgia, serif;
-    --font-body:'Source Serif 4', Georgia, serif;
-    --font-accent:'Outfit', sans-serif;
-
-    --hero-weight:700; --hero-spacing:-0.02em; --hero-style:italic;
-    --heading-weight:600; --label-weight:600; --label-spacing:0.1em;
-    --label-size:0.72rem; --btn-radius:2px; --card-radius:6px;
+  .logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px 64px;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 4: CLEAN INDIGO
-     Wonky optical serif + wide warm grotesque + monospace accent
-  ═══════════════════════════════════════════ */
-  [data-theme="indigo"] {
-    --accent:#4A5899; --accent-deep:#3A4578; --accent-light:#7B8CC7;
-    --bg-page:#FAFBFD; --bg-warm:#F0F1F5; --bg-card:#FFFFFF;
-    --bg-dark:#1A1D2E; --bg-dark-mid:#2E3350;
-    --text-primary:#1A1D2E; --text-heading:#1A1D2E; --text-sub:#3E4258;
-    --text-muted:#6E7189; --text-on-dark:#F0F1F5; --border:#E2E3EA;
-
-    --font-display:'Fraunces', Georgia, serif;
-    --font-body:'Bricolage Grotesque', sans-serif;
-    --font-accent:'Space Mono', monospace;
-
-    --hero-weight:800; --hero-spacing:-0.04em; --hero-style:normal;
-    --heading-weight:600; --label-weight:700; --label-spacing:0.08em;
-    --label-size:0.68rem; --btn-radius:8px; --card-radius:12px;
+  .logo-card {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(28, 46, 28, 0.08);
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 5: HERITAGE BURGUNDY
-     Delicate handmade serif + friendly humanist sans + rounded display accent
-  ═══════════════════════════════════════════ */
-  [data-theme="burgundy"] {
-    --accent:#8B2E4F; --accent-deep:#6E2240; --accent-light:#C06E8A;
-    --bg-page:#FDFAF8; --bg-warm:#F5EDEA; --bg-card:#FFFFFF;
-    --bg-dark:#211419; --bg-dark-mid:#3E232E;
-    --text-primary:#211419; --text-heading:#211419; --text-sub:#4A3540;
-    --text-muted:#806874; --text-on-dark:#F5EDEA; --border:#E8DDD8;
-
-    --font-display:'Instrument Serif', Georgia, serif;
-    --font-body:'Karla', sans-serif;
-    --font-accent:'Unbounded', sans-serif;
-
-    --hero-weight:400; --hero-spacing:-0.02em; --hero-style:italic;
-    --heading-weight:400; --label-weight:600; --label-spacing:0.18em;
-    --label-size:0.65rem; --btn-radius:0px; --card-radius:4px;
+  .logo-card .label {
+    padding: 16px 24px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(28, 46, 28, 0.08);
+  }
+  .label-dark {
+    background: #1C2E1C;
+    color: #C8A95C;
+  }
+  .label-light {
+    background: #fff;
+    color: #6B7E6B;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 6: COPPER MINIMAL
-     Ultra-high contrast serif + clean Swiss sans + monospace accent
-  ═══════════════════════════════════════════ */
-  [data-theme="copper"] {
-    --accent:#B87333; --accent-deep:#96592A; --accent-light:#D4A574;
-    --bg-page:#FCFBF9; --bg-warm:#F3F0EC; --bg-card:#FFFFFF;
-    --bg-dark:#1A1714; --bg-dark-mid:#342E26;
-    --text-primary:#1A1714; --text-heading:#1A1714; --text-sub:#4A4238;
-    --text-muted:#7A7068; --text-on-dark:#F3F0EC; --border:#E5E0D8;
-
-    --font-display:'Bodoni Moda', Georgia, serif;
-    --font-body:'Inter', sans-serif;
-    --font-accent:'JetBrains Mono', monospace;
-
-    --hero-weight:800; --hero-spacing:-0.04em; --hero-style:normal;
-    --heading-weight:700; --label-weight:500; --label-spacing:0.1em;
-    --label-size:0.68rem; --btn-radius:0px; --card-radius:2px;
+  .logo-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 420px;
+    padding: 48px;
+  }
+  .logo-display.dark {
+    background: #1C2E1C;
+  }
+  .logo-display.checkerboard {
+    background-image:
+      linear-gradient(45deg, #e8e3db 25%, transparent 25%),
+      linear-gradient(-45deg, #e8e3db 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #e8e3db 75%),
+      linear-gradient(-45deg, transparent 75%, #e8e3db 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+    background-color: #fff;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 7: OCEAN CALM
-     Friendly rounded serif + soft geometric sans + rounded accent
-  ═══════════════════════════════════════════ */
-  [data-theme="ocean"] {
-    --accent:#2A7B9B; --accent-deep:#1D5F7A; --accent-light:#5CADC7;
-    --bg-page:#F9FCFD; --bg-warm:#EDF4F7; --bg-card:#FFFFFF;
-    --bg-dark:#142832; --bg-dark-mid:#1E4052;
-    --text-primary:#142832; --text-heading:#142832; --text-sub:#2E4A58;
-    --text-muted:#5E7A88; --text-on-dark:#EDF4F7; --border:#D8E5EC;
-
-    --font-display:'Young Serif', Georgia, serif;
-    --font-body:'Be Vietnam Pro', sans-serif;
-    --font-accent:'Rubik', sans-serif;
-
-    --hero-weight:400; --hero-spacing:-0.01em; --hero-style:normal;
-    --heading-weight:400; --label-weight:600; --label-spacing:0.14em;
-    --label-size:0.7rem; --btn-radius:24px; --card-radius:16px;
+  .logo-inner {
+    text-align: center;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 8: CHARCOAL EDITORIAL
-     Condensed newspaper serif + wide editorial sans + tight mono
-  ═══════════════════════════════════════════ */
-  [data-theme="charcoal"] {
-    --accent:#D4A03C; --accent-deep:#B8882E; --accent-light:#E8C86C;
-    --bg-page:#FAFAF8; --bg-warm:#F0EFEA; --bg-card:#FFFFFF;
-    --bg-dark:#18180F; --bg-dark-mid:#2C2C1E;
-    --text-primary:#18180F; --text-heading:#18180F; --text-sub:#3A3A2E;
-    --text-muted:#6E6E5E; --text-on-dark:#F0EFEA; --border:#DEDED4;
-
-    --font-display:'Crimson Pro', Georgia, serif;
-    --font-body:'Manrope', sans-serif;
-    --font-accent:'Archivo', sans-serif;
-
-    --hero-weight:300; --hero-spacing:0em; --hero-style:italic;
-    --heading-weight:400; --label-weight:700; --label-spacing:0.12em;
-    --label-size:0.72rem; --btn-radius:3px; --card-radius:6px;
+  .wheat-stalk {
+    margin-bottom: 20px;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 9: ROSE GOLD
-     Elegant literary serif + soft modern body + display sans accent
-  ═══════════════════════════════════════════ */
-  [data-theme="rosegold"] {
-    --accent:#B76E79; --accent-deep:#9A5662; --accent-light:#D4A0AA;
-    --bg-page:#FDFBFA; --bg-warm:#F7F0EE; --bg-card:#FFFFFF;
-    --bg-dark:#231C1E; --bg-dark-mid:#3E3234;
-    --text-primary:#231C1E; --text-heading:#231C1E; --text-sub:#4E4042;
-    --text-muted:#8A787A; --text-on-dark:#F7F0EE; --border:#EAE0DD;
-
-    --font-display:'Spectral', Georgia, serif;
-    --font-body:'Albert Sans', sans-serif;
-    --font-accent:'Red Hat Display', sans-serif;
-
-    --hero-weight:300; --hero-spacing:-0.02em; --hero-style:italic;
-    --heading-weight:400; --label-weight:700; --label-spacing:0.15em;
-    --label-size:0.68rem; --btn-radius:6px; --card-radius:10px;
+  .brand-name {
+    font-family: 'Geologica', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .brand-sub {
+    font-family: 'Gilda Display', serif;
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-top: -2px;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 10: SLATE MODERN
-     Chunky warm serif + neo-grotesque body + heavy condensed accent
-  ═══════════════════════════════════════════ */
-  [data-theme="slate"] {
-    --accent:#5A6B4F; --accent-deep:#45523D; --accent-light:#8A9E7C;
-    --bg-page:#FAFBF9; --bg-warm:#EEEEE8; --bg-card:#FFFFFF;
-    --bg-dark:#1E2118; --bg-dark-mid:#363B2E;
-    --text-primary:#1E2118; --text-heading:#1E2118; --text-sub:#3C4236;
-    --text-muted:#6A7264; --text-on-dark:#EEEEE8; --border:#DDDDD5;
+  .dark .brand-name { color: #F5F0E8; }
+  .dark .brand-sub { color: #C8A95C; }
 
-    --font-display:'Bitter', Georgia, serif;
-    --font-body:'Work Sans', sans-serif;
-    --font-accent:'Archivo', sans-serif;
+  .checkerboard .brand-name { color: #1C2E1C; }
+  .checkerboard .brand-sub { color: #C8A95C; }
 
-    --hero-weight:700; --hero-spacing:-0.03em; --hero-style:normal;
-    --heading-weight:600; --label-weight:800; --label-spacing:0.08em;
-    --label-size:0.72rem; --btn-radius:4px; --card-radius:8px;
+  .color-strip {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto 48px;
+    padding: 0 32px;
+    gap: 12px;
+  }
+  .color-swatch {
+    flex: 1;
+    height: 48px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 11: MATILDA (inspired by matildamigration.com)
-     Modern SaaS, purple primary, rounded, playful-professional
-  ═══════════════════════════════════════════ */
-  [data-theme="matilda"] {
-    --accent:#6B4EFF; --accent-deep:#5438DB; --accent-light:#9B8AFF;
-    --bg-page:#FAFAFF; --bg-warm:#F0EEFF; --bg-card:#FFFFFF;
-    --bg-dark:#1A1333; --bg-dark-mid:#2D2255;
-    --text-primary:#1A1333; --text-heading:#1A1333; --text-sub:#3E3660;
-    --text-muted:#7A72A0; --text-on-dark:#F0EEFF; --border:#E5E0F5;
-
-    --font-display:'Lexend', sans-serif;
-    --font-body:'Figtree', sans-serif;
-    --font-accent:'Urbanist', sans-serif;
-
-    --hero-weight:700; --hero-spacing:-0.03em; --hero-style:normal;
-    --heading-weight:600; --label-weight:600; --label-spacing:0.1em;
-    --label-size:0.72rem; --btn-radius:100px; --card-radius:16px;
+  .section-label {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px 16px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #6B7E6B;
+    font-weight: 600;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 12: CYNTHIA (inspired by cynthiaburnsdesign.com)
-     Organic botanical, olive/sage, elegant serif, landscape-feel
-  ═══════════════════════════════════════════ */
-  [data-theme="cynthia"] {
-    --accent:#5C6B4A; --accent-deep:#475539; --accent-light:#8A9B72;
-    --bg-page:#FDFCF8; --bg-warm:#F2EFEA; --bg-card:#FFFFFF;
-    --bg-dark:#1E2419; --bg-dark-mid:#2E3826;
-    --text-primary:#1E2419; --text-heading:#1E2419; --text-sub:#3D4635;
-    --text-muted:#6E7A62; --text-on-dark:#F2EFEA; --border:#E0DDD5;
-
-    --font-display:'Gilda Display', Georgia, serif;
-    --font-body:'Hanken Grotesk', sans-serif;
-    --font-accent:'Geologica', sans-serif;
-
-    --hero-weight:400; --hero-spacing:-0.01em; --hero-style:normal;
-    --heading-weight:400; --label-weight:500; --label-spacing:0.2em;
-    --label-size:0.65rem; --btn-radius:2px; --card-radius:6px;
+  .logo-inner.horizontal {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-align: left;
+  }
+  .logo-inner.horizontal .wheat-stalk {
+    margin-bottom: 0;
+    flex-shrink: 0;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 13: NOIR DECO
-     Bold art-deco serif + geometric display sans + tight grotesque
-  ═══════════════════════════════════════════ */
-  [data-theme="noir"] {
-    --accent:#C9A84C; --accent-deep:#A88B3C; --accent-light:#E0C878;
-    --bg-page:#FAFAF8; --bg-warm:#F0EDE5; --bg-card:#FFFFFF;
-    --bg-dark:#0F0F0D; --bg-dark-mid:#252520;
-    --text-primary:#0F0F0D; --text-heading:#0F0F0D; --text-sub:#2E2E28;
-    --text-muted:#686860; --text-on-dark:#F0EDE5; --border:#DDDDD5;
-
-    --font-display:'Noto Serif Display', Georgia, serif;
-    --font-body:'Atkinson Hyperlegible', sans-serif;
-    --font-accent:'Wix Madefor Display', sans-serif;
-
-    --hero-weight:900; --hero-spacing:-0.05em; --hero-style:normal;
-    --heading-weight:700; --label-weight:700; --label-spacing:0.18em;
-    --label-size:0.68rem; --btn-radius:0px; --card-radius:2px;
+  .logo-inner.horizontal-compact {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: left;
+  }
+  .logo-inner.horizontal-compact .wheat-stalk {
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+  .logo-inner.horizontal-compact .brand-name {
+    font-size: 22px;
+    letter-spacing: 8px;
+  }
+  .logo-inner.horizontal-compact .brand-sub {
+    font-size: 16px;
+    margin-top: -1px;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 14: SOFT BLUSH
-     Delicate literary serif + ultra-clean body + rounded labels
-  ═══════════════════════════════════════════ */
-  [data-theme="blush"] {
-    --accent:#B88A7D; --accent-deep:#9A7268; --accent-light:#D4AEA3;
-    --bg-page:#FDFCFB; --bg-warm:#F7F2EF; --bg-card:#FFFFFF;
-    --bg-dark:#2A2120; --bg-dark-mid:#443835;
-    --text-primary:#2A2120; --text-heading:#2A2120; --text-sub:#4E403D;
-    --text-muted:#8A7A76; --text-on-dark:#F7F2EF; --border:#EAE2DE;
-
-    --font-display:'Newsreader', Georgia, serif;
-    --font-body:'Lexend', sans-serif;
-    --font-accent:'Figtree', sans-serif;
-
-    --hero-weight:300; --hero-spacing:-0.01em; --hero-style:italic;
-    --heading-weight:400; --label-weight:600; --label-spacing:0.14em;
-    --label-size:0.7rem; --btn-radius:20px; --card-radius:12px;
+  .logo-grid.full {
+    grid-template-columns: 1fr;
+  }
+  .logo-grid.full .logo-display {
+    min-height: 280px;
   }
 
-  /* ═══════════════════════════════════════════
-     THEME 15: TEAK CRAFT
-     Wide display serif + tight Swiss body + ultra-wide accent
-  ═══════════════════════════════════════════ */
-  [data-theme="teak"] {
-    --accent:#8B6B42; --accent-deep:#6E5334; --accent-light:#B89B6A;
-    --bg-page:#FCFAF6; --bg-warm:#F2EDE5; --bg-card:#FFFFFF;
-    --bg-dark:#1C1810; --bg-dark-mid:#342E22;
-    --text-primary:#1C1810; --text-heading:#1C1810; --text-sub:#443C30;
-    --text-muted:#7A6E5E; --text-on-dark:#F2EDE5; --border:#E2DCD2;
-
-    --font-display:'Prata', Georgia, serif;
-    --font-body:'Cardo', Georgia, serif;
-    --font-accent:'Rubik', sans-serif;
-
-    --hero-weight:400; --hero-spacing:-0.02em; --hero-style:normal;
-    --heading-weight:400; --label-weight:600; --label-spacing:0.12em;
-    --label-size:0.7rem; --btn-radius:3px; --card-radius:6px;
+  .divider {
+    max-width: 1000px;
+    margin: 16px auto 48px;
+    padding: 0 32px;
+    border-top: 1px solid rgba(28,46,28,0.08);
   }
 
-  /* ═══════════════════════════════════════════
-     RESET
-  ═══════════════════════════════════════════ */
-  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  html{font-size:16px;scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
-  body{font-family:var(--font-body);color:var(--text-primary);background:var(--bg-page);line-height:1.65;transition:background .5s,color .5s}
-
-  /* ═══════════════════════════════════════════
-     TAB BAR
-  ═══════════════════════════════════════════ */
-  .tab-bar{position:sticky;top:0;z-index:100;background:var(--bg-dark);display:flex;flex-wrap:wrap;align-items:stretch;border-bottom:2px solid var(--accent);transition:all .5s;box-shadow:0 4px 20px rgba(0,0,0,.15)}
-  .tab-bar-label{display:flex;align-items:center;padding:0 14px;font-family:-apple-system,sans-serif;font-size:.55rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:rgba(255,255,255,.3);white-space:nowrap;border-right:1px solid rgba(255,255,255,.06)}
-  .tab-btn{flex:1 1 auto;min-width:0;padding:11px 6px;background:0 0;border:none;cursor:pointer;font-family:-apple-system,sans-serif;font-size:.65rem;font-weight:500;color:rgba(255,255,255,.45);transition:all .3s;position:relative;text-align:center;white-space:nowrap}
-  .tab-btn:hover{color:rgba(255,255,255,.8);background:rgba(255,255,255,.04)}
-  .tab-btn.active{color:#fff;background:rgba(255,255,255,.06)}
-  .tab-btn.active::after{content:'';position:absolute;bottom:-2px;left:15%;right:15%;height:2px;background:var(--accent);border-radius:2px 2px 0 0;transition:background .5s}
-  .tab-btn .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
-
-  /* ═══════════════════════════════════════════
-     LAYOUT
-  ═══════════════════════════════════════════ */
-  .guide{max-width:1100px;margin:0 auto;padding:48px 32px}
-  .guide-header{text-align:center;padding:56px 0;border-bottom:1px solid var(--border);margin-bottom:56px;transition:border-color .5s}
-  .guide-header::before{content:'✦';display:block;font-size:1.1rem;color:var(--accent);margin-bottom:16px;letter-spacing:.5em}
-  .guide-header h1{font-family:var(--font-display);font-size:3.5rem;font-weight:var(--heading-weight);color:var(--text-heading);letter-spacing:var(--hero-spacing);line-height:1.1;margin-bottom:10px;transition:all .4s}
-  .guide-header h1 em{font-style:italic;color:var(--accent)}
-  .guide-header p{font-size:1.05rem;color:var(--text-muted);font-weight:300;max-width:560px;margin:0 auto;line-height:1.7;font-family:var(--font-body);transition:font-family .4s}
-  .theme-badge{display:inline-flex;flex-direction:column;align-items:center;background:var(--bg-warm);border:1px solid var(--border);border-radius:var(--card-radius);padding:16px 28px;margin-top:24px;transition:all .5s}
-  .theme-badge .theme-name{font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent);margin-bottom:2px;transition:all .4s}
-  .theme-badge .theme-vibe{font-family:var(--font-display);font-size:1rem;font-style:italic;color:var(--text-sub);transition:font-family .4s}
-  .guide-label{font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent);margin-bottom:8px;display:block;transition:all .4s}
-
-  /* SECTIONS */
-  .section{margin-bottom:56px;padding-bottom:56px;border-bottom:1px solid var(--border);transition:border-color .5s}
-  .section:last-child{border-bottom:none}
-  .section-title{font-family:var(--font-display);font-size:1.875rem;font-weight:var(--heading-weight);color:var(--text-heading);margin-bottom:10px;transition:all .4s}
-  .section-desc{color:var(--text-muted);font-size:.95rem;max-width:620px;margin-bottom:28px;line-height:1.75;font-family:var(--font-body);transition:font-family .4s}
-  .divider{display:flex;align-items:center;gap:12px;margin:24px 0;color:var(--text-muted)}
-  .divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--border);transition:background .5s}
-  .divider span{font-family:var(--font-accent);font-size:.65rem;font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--text-muted);transition:all .4s}
-
-  /* THEME DESC */
-  .theme-desc-box{background:var(--bg-dark);color:var(--text-on-dark);border-radius:var(--card-radius);padding:32px;margin-bottom:28px;transition:all .5s}
-  .theme-desc-box h4{font-family:var(--font-display);font-size:1.5rem;font-weight:var(--heading-weight);color:var(--accent-light);margin-bottom:10px;transition:all .4s}
-  .theme-desc-box p{color:rgba(255,255,255,.7);line-height:1.8;margin-bottom:10px;font-family:var(--font-body);transition:font-family .4s}
-  .theme-desc-box .font-list{font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent-light);opacity:.7;transition:all .4s}
-
-  /* ═══════════════════════════════════════════
-     FONT SPECIMENS - large visual comparison
-  ═══════════════════════════════════════════ */
-  .specimen-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:28px}
-  .specimen-card{background:var(--bg-warm);border-radius:var(--card-radius);padding:28px 24px;text-align:center;transition:all .5s;min-height:210px;display:flex;flex-direction:column;justify-content:center}
-  .specimen-card .role{font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent);margin-bottom:6px;transition:all .4s}
-  .specimen-card .font-name{font-size:.75rem;color:var(--text-muted);margin-bottom:16px;font-family:var(--font-body);transition:font-family .4s}
-  .specimen-card .display-sample{font-family:var(--font-display);font-size:2.8rem;font-weight:var(--hero-weight);letter-spacing:var(--hero-spacing);color:var(--text-heading);line-height:1.05;transition:all .4s}
-  .specimen-card .body-sample{font-family:var(--font-body);font-size:.95rem;color:var(--text-sub);line-height:1.75;text-align:left;transition:font-family .4s}
-  .specimen-card .accent-sample{font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent);transition:all .4s}
-  .specimen-card .accent-sample-lg{font-family:var(--font-accent);font-size:1.8rem;font-weight:var(--label-weight);color:var(--text-heading);letter-spacing:0.02em;transition:all .4s}
-
-  /* Alphabet strip */
-  .alphabet-strip{background:var(--bg-dark);border-radius:var(--card-radius);padding:32px;text-align:center;margin-bottom:28px;transition:all .5s}
-  .alphabet-strip .line{font-family:var(--font-display);font-size:1.6rem;font-weight:var(--heading-weight);color:var(--text-on-dark);letter-spacing:.08em;line-height:2;transition:all .4s}
-  .alphabet-strip .line-body{font-family:var(--font-body);font-size:1rem;color:rgba(255,255,255,.5);letter-spacing:.06em;line-height:2;margin-top:8px;transition:font-family .4s}
-  .alphabet-strip .line-accent{font-family:var(--font-accent);font-size:.85rem;font-weight:var(--label-weight);color:var(--accent-light);letter-spacing:.1em;line-height:2;margin-top:8px;text-transform:uppercase;transition:all .4s}
-
-  /* Type pairing */
-  .type-pairing{background:var(--bg-warm);border-radius:var(--card-radius);padding:44px;margin-top:24px;transition:all .5s}
-  .type-pairing .small-label{font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent);margin-bottom:10px;display:block;transition:all .4s}
-  .type-pairing h3{font-family:var(--font-display);font-size:2.5rem;font-weight:var(--hero-weight);color:var(--text-heading);line-height:1.12;letter-spacing:var(--hero-spacing);margin-bottom:18px;font-style:var(--hero-style);transition:all .4s}
-  .type-pairing h3 em{font-style:italic;color:var(--accent)}
-  .type-pairing p{font-family:var(--font-body);font-size:.95rem;color:var(--text-sub);line-height:1.8;max-width:560px;transition:font-family .4s}
-
-  /* ═══════════════════════════════════════════
-     COLORS
-  ═══════════════════════════════════════════ */
-  .color-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
-  .color-card{border-radius:var(--card-radius);overflow:hidden;background:var(--bg-card);box-shadow:0 1px 3px rgba(0,0,0,.05);transition:all .5s}
-  .color-swatch{height:88px;position:relative;transition:background .5s}
-  .color-swatch::after{content:attr(data-hex);position:absolute;bottom:5px;right:7px;font-family:var(--font-accent);font-size:.6rem;font-weight:500;opacity:.65}
-  .color-swatch.lt::after{color:rgba(255,255,255,.8)}
-  .color-swatch.dt::after{color:rgba(0,0,0,.35)}
-  .color-info{padding:10px}
-  .color-info h4{font-family:var(--font-display);font-size:.95rem;font-weight:500;color:var(--text-heading);margin-bottom:1px;transition:font-family .4s}
-  .color-info p{font-size:.65rem;color:var(--text-muted);line-height:1.4}
-
-  /* ═══════════════════════════════════════════
-     BUTTONS
-  ═══════════════════════════════════════════ */
-  .btn-grid{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:28px}
-  .btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-accent);font-weight:var(--label-weight);font-size:.78rem;text-transform:uppercase;letter-spacing:var(--label-spacing);text-decoration:none;cursor:pointer;border:none;transition:all .3s}
-  .btn-primary{background:var(--accent);color:#fff;padding:14px 32px;border-radius:var(--btn-radius)}
-  .btn-primary:hover{background:var(--accent-deep);transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,.12)}
-  .btn-secondary{background:0 0;color:var(--text-heading);padding:12px 30px;border:1.5px solid var(--text-heading);border-radius:var(--btn-radius)}
-  .btn-secondary:hover{background:var(--text-heading);color:var(--bg-page)}
-  .btn-ghost{background:0 0;color:var(--accent);padding:12px 6px;border-bottom:1.5px solid var(--accent);border-radius:0}
-  .btn-ghost:hover{color:var(--accent-deep);border-color:var(--accent-deep)}
-  .btn-dark{background:var(--bg-dark);color:var(--text-on-dark);padding:14px 32px;border-radius:var(--btn-radius)}
-  .btn-dark:hover{opacity:.9;transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,.12)}
-
-  /* FORM */
-  .form-demo{background:var(--bg-warm);border-radius:var(--card-radius);padding:28px;max-width:480px;transition:all .5s}
-  .form-group{margin-bottom:16px}
-  .form-label{display:block;font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--text-sub);margin-bottom:5px;transition:all .4s}
-  .form-input,.form-select,.form-textarea{width:100%;font-family:var(--font-body);font-size:.95rem;color:var(--text-heading);background:var(--bg-card);border:1.5px solid var(--border);border-radius:var(--btn-radius);padding:10px 13px;transition:all .3s;outline:0}
-  .form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,0,0,.03)}
-  .form-input::placeholder{color:var(--text-muted);opacity:.45}
-  .form-textarea{min-height:80px;resize:vertical}
-  .form-select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 13px center;padding-right:34px}
-
-  /* ═══════════════════════════════════════════
-     HERO
-  ═══════════════════════════════════════════ */
-  .hero-preview{background:linear-gradient(160deg,var(--bg-dark) 0%,var(--bg-dark-mid) 70%);border-radius:var(--card-radius);padding:72px 40px;color:var(--text-on-dark);text-align:center;position:relative;overflow:hidden;margin-bottom:28px;transition:all .5s}
-  .hero-preview::before{content:'';position:absolute;top:-40%;right:-15%;width:450px;height:450px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.03) 0%,transparent 70%)}
-  .hero-preview .small-label{font-family:var(--font-accent);font-size:var(--label-size);font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:.2em;color:var(--accent-light);margin-bottom:18px;display:block;position:relative;transition:all .4s}
-  .hero-preview h2{font-family:var(--font-display);font-size:4.2rem;font-weight:var(--hero-weight);line-height:1.05;letter-spacing:var(--hero-spacing);margin-bottom:18px;position:relative;color:var(--text-on-dark);font-style:var(--hero-style);transition:all .4s}
-  .hero-preview h2 em{font-style:italic;color:var(--accent-light)}
-  .hero-preview p{font-family:var(--font-body);font-size:1.05rem;font-weight:300;color:rgba(255,255,255,.55);max-width:480px;margin:0 auto 28px;line-height:1.7;position:relative;transition:font-family .4s}
-  .hero-preview .btn-primary{position:relative}
-
-  /* TRUST BAR */
-  .trust-bar-demo{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:28px}
-  .trust-item{text-align:center;padding:20px 10px;background:var(--bg-warm);border-radius:var(--card-radius);transition:all .5s}
-  .trust-item .number{font-family:var(--font-display);font-size:1.75rem;font-weight:var(--hero-weight);color:var(--accent);line-height:1;margin-bottom:3px;transition:all .4s}
-  .trust-item .label{font-family:var(--font-accent);font-size:.6rem;font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--text-sub);transition:all .4s}
-
-  /* PRODUCT CARDS */
-  .product-card-demo{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:28px}
-  .product-card{background:var(--bg-card);border-radius:var(--card-radius);overflow:hidden;border:1px solid var(--border);transition:all .3s}
-  .product-card:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(0,0,0,.06)}
-  .product-img{height:180px;background:var(--bg-warm);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;transition:all .5s}
-  .product-img::before{content:'';position:absolute;width:60px;height:60px;border-radius:50%;background:var(--accent);opacity:.07}
-  .product-img span{font-family:var(--font-display);font-size:.8rem;font-style:italic;color:var(--text-muted);transition:font-family .4s}
-  .product-body{padding:18px}
-  .product-body .product-tag{font-family:var(--font-accent);font-size:.58rem;font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent);margin-bottom:3px;display:block;transition:all .4s}
-  .product-body h4{font-family:var(--font-display);font-size:1.15rem;font-weight:var(--heading-weight);color:var(--text-heading);margin-bottom:5px;line-height:1.3;transition:all .4s}
-  .product-body p{font-size:.78rem;color:var(--text-muted);line-height:1.6;margin-bottom:10px;font-family:var(--font-body);transition:font-family .4s}
-  .product-body a{font-family:var(--font-accent);font-size:.65rem;font-weight:var(--label-weight);text-transform:uppercase;letter-spacing:var(--label-spacing);color:var(--accent);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px;transition:all .4s}
-  .product-body a:hover{color:var(--accent-deep)}
-
-  /* TESTIMONIAL */
-  .testimonial-demo{background:var(--bg-dark);border-radius:var(--card-radius);padding:44px;color:var(--text-on-dark);position:relative;transition:all .5s}
-  .testimonial-demo::before{content:'"';font-family:var(--font-display);font-size:5rem;color:var(--accent);opacity:.25;position:absolute;top:6px;left:18px;line-height:1;transition:font-family .4s}
-  .testimonial-demo blockquote{font-family:var(--font-display);font-size:1.35rem;font-weight:300;font-style:italic;line-height:1.6;color:rgba(255,255,255,.82);margin-bottom:18px;position:relative;z-index:1;transition:font-family .4s}
-  .testimonial-demo .author{font-family:var(--font-body);font-size:.82rem;color:var(--accent-light);font-weight:500;transition:font-family .4s}
-  .testimonial-demo .author span{color:rgba(255,255,255,.35);font-weight:300}
-
-  /* FOOTER */
-  .guide-footer{text-align:center;padding:44px 0 20px;color:var(--text-muted)}
-  .guide-footer .brand{font-family:var(--font-display);font-size:1.4rem;color:var(--text-heading);font-weight:var(--heading-weight);margin-bottom:4px;transition:all .4s}
-  .guide-footer .brand em{color:var(--accent);font-style:italic}
-  .guide-footer p{font-size:.78rem;font-family:var(--font-body);transition:font-family .4s}
-
-  /* RESPONSIVE */
-  @media(max-width:860px){
-    .tab-bar{flex-wrap:wrap}.tab-bar-label{display:none}.tab-btn{padding:8px 4px;font-size:.58rem;flex:1 1 18%}.tab-btn .dot{width:6px;height:6px;margin-right:3px}
-    .guide{padding:28px 14px}.guide-header h1{font-size:2.2rem}.hero-preview h2{font-size:2.2rem}.hero-preview{padding:40px 20px}
-    .product-card-demo{grid-template-columns:1fr}.trust-bar-demo{grid-template-columns:repeat(2,1fr)}
-    .specimen-grid{grid-template-columns:1fr}.color-grid{grid-template-columns:repeat(2,1fr)}
-    .type-pairing{padding:24px}.type-pairing h3{font-size:1.6rem}.specimen-card .display-sample{font-size:2rem}
+  @media (max-width: 700px) {
+    .logo-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
+<body>
 
-<body data-theme="saffron">
-
-<nav class="tab-bar">
-  <div class="tab-bar-label">Tema</div>
-  <button class="tab-btn active" onclick="setTheme('saffron',this)"><span class="dot" style="background:#C8860A"></span>Saffron</button>
-  <button class="tab-btn" onclick="setTheme('forest',this)"><span class="dot" style="background:#2D6A4F"></span>Forest</button>
-  <button class="tab-btn" onclick="setTheme('midnight',this)"><span class="dot" style="background:#C45E3E"></span>Spice</button>
-  <button class="tab-btn" onclick="setTheme('indigo',this)"><span class="dot" style="background:#4A5899"></span>Indigo</button>
-  <button class="tab-btn" onclick="setTheme('burgundy',this)"><span class="dot" style="background:#8B2E4F"></span>Burgundy</button>
-  <button class="tab-btn" onclick="setTheme('copper',this)"><span class="dot" style="background:#B87333"></span>Copper</button>
-  <button class="tab-btn" onclick="setTheme('ocean',this)"><span class="dot" style="background:#2A7B9B"></span>Ocean</button>
-  <button class="tab-btn" onclick="setTheme('charcoal',this)"><span class="dot" style="background:#D4A03C"></span>Charcoal</button>
-  <button class="tab-btn" onclick="setTheme('rosegold',this)"><span class="dot" style="background:#B76E79"></span>Rose Gold</button>
-  <button class="tab-btn" onclick="setTheme('slate',this)"><span class="dot" style="background:#5A6B4F"></span>Slate</button>
-  <button class="tab-btn" onclick="setTheme('matilda',this)"><span class="dot" style="background:#6B4EFF"></span>Matilda</button>
-  <button class="tab-btn" onclick="setTheme('cynthia',this)"><span class="dot" style="background:#5C6B4A"></span>Cynthia</button>
-  <button class="tab-btn" onclick="setTheme('noir',this)"><span class="dot" style="background:#C9A84C"></span>Noir Deco</button>
-  <button class="tab-btn" onclick="setTheme('blush',this)"><span class="dot" style="background:#B88A7D"></span>Soft Blush</button>
-  <button class="tab-btn" onclick="setTheme('teak',this)"><span class="dot" style="background:#8B6B42"></span>Teak Craft</button>
-</nav>
-
-<div class="guide">
-
-  <header class="guide-header">
-    <h1>Maria's <em>Kitchen</em></h1>
-    <p>Klicka på flikarna ovan för att jämföra 15 designriktningar. Varje tema har unika typsnitt, färger och karaktär.</p>
-    <div class="theme-badge">
-      <span class="theme-name" id="badgeName">Warm Saffron</span>
-      <span class="theme-vibe" id="badgeVibe">Warm luxury, klassiskt men modernt</span>
-    </div>
-  </header>
-
-  <!-- THEME DESCRIPTION -->
-  <section class="section">
-    <span class="guide-label">Aktuellt tema</span>
-    <h2 class="section-title" id="themeTitle">Warm Saffron</h2>
-    <div class="theme-desc-box">
-      <h4>Om detta tema</h4>
-      <p id="themeDesc"></p>
-      <div class="font-list" id="themeFonts"></div>
-    </div>
-  </section>
-
-  <!-- TYPOGRAPHY -->
-  <section class="section">
-    <span class="guide-label">Typografi</span>
-    <h2 class="section-title">Typsnitt & texthierarki</h2>
-    <p class="section-desc">Tre unika typsnitt per tema. Byt flik och se hur karaktären förändras helt.</p>
-
-    <div class="specimen-grid">
-      <div class="specimen-card">
-        <div class="role">Display</div>
-        <div class="font-name" id="specDisplayName">Cormorant Garamond</div>
-        <div class="display-sample">Aa Gg Rr</div>
-      </div>
-      <div class="specimen-card">
-        <div class="role">Body</div>
-        <div class="font-name" id="specBodyName">Libre Franklin</div>
-        <div class="body-sample">Med 15 års erfarenhet importerar vi noggrant utvalt basmatiris direkt från Indiens bästa odlare till den nordiska marknaden.</div>
-      </div>
-      <div class="specimen-card">
-        <div class="role">Accent / Labels</div>
-        <div class="font-name" id="specAccentName">Anybody</div>
-        <div class="accent-sample" style="margin-bottom:12px">Direktimport · 15 år · Premium</div>
-        <div class="accent-sample-lg">Begär offert</div>
-      </div>
-    </div>
-
-    <div class="alphabet-strip">
-      <div class="line">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö</div>
-      <div class="line-body">a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö 1 2 3 4 5 6 7 8 9 0</div>
-      <div class="line-accent">Maria's Kitchen — Kvalitetsris sedan 2010</div>
-    </div>
-
-    <div class="type-pairing">
-      <span class="small-label">Typografisk kombination i praktiken</span>
-      <h3>Kvalitetsris direkt från <em>Indien</em> till ditt bord i Norden</h3>
-      <p>Vi hanterar hela processen — från urval hos odlare i norra Indien till transport och leverans i Norden — med största omsorg. Vårt engagemang för kvalitet och kundnöjdhet gör oss till en pålitlig partner.</p>
-    </div>
-  </section>
-
-  <!-- COLORS -->
-  <section class="section">
-    <span class="guide-label">Färgpalett</span>
-    <h2 class="section-title">Färger</h2>
-    <p class="section-desc">Fullständig palett med primära och sekundära färger.</p>
-    <div class="divider"><span>Primära</span></div>
-    <div class="color-grid" id="primaryColors"></div>
-    <div class="divider"><span>Sekundära</span></div>
-    <div class="color-grid" id="secondaryColors"></div>
-  </section>
-
-  <!-- BUTTONS & FORM -->
-  <section class="section">
-    <span class="guide-label">Interaktioner</span>
-    <h2 class="section-title">Knappar & formulär</h2>
-    <div class="btn-grid">
-      <button class="btn btn-primary">Begär offert</button>
-      <button class="btn btn-secondary">Våra produkter</button>
-      <button class="btn btn-ghost">Läs mer →</button>
-      <button class="btn btn-dark">Kontakta oss</button>
-    </div>
-    <div class="divider"><span>Formulär</span></div>
-    <div class="form-demo">
-      <div class="form-group"><label class="form-label">Företagsnamn</label><input class="form-input" type="text" placeholder="T.ex. Restaurant Karma"></div>
-      <div class="form-group"><label class="form-label">Typ av verksamhet</label><select class="form-select"><option>Välj typ...</option><option>Restaurang</option><option>Butik</option><option>Grossist</option></select></div>
-      <div class="form-group"><label class="form-label">Meddelande</label><textarea class="form-textarea" placeholder="Berätta vad ni behöver..."></textarea></div>
-      <button class="btn btn-primary" style="width:100%">Skicka förfrågan</button>
-    </div>
-  </section>
-
-  <!-- COMPONENTS -->
-  <section class="section">
-    <span class="guide-label">Komponenter</span>
-    <h2 class="section-title">Komponentförhandsvisning</h2>
-
-    <div class="divider"><span>Hero</span></div>
-    <div class="hero-preview">
-      <span class="small-label">Maria's Kitchen — Sedan 2010</span>
-      <h2>Kvalitetsris direkt<br>från <em>Indien</em></h2>
-      <p>Vi importerar noggrant utvalt basmatiris och levererar till restauranger och butiker i hela Norden.</p>
-      <button class="btn btn-primary">Begär offert</button>
-    </div>
-
-    <div class="divider"><span>Trust bar</span></div>
-    <div class="trust-bar-demo">
-      <div class="trust-item"><div class="number">15+</div><div class="label">Års erfarenhet</div></div>
-      <div class="trust-item"><div class="number">100%</div><div class="label">Direktimport</div></div>
-      <div class="trust-item"><div class="number">B2B</div><div class="label">Nordisk marknad</div></div>
-      <div class="trust-item"><div class="number">∞</div><div class="label">Flexibla leveranser</div></div>
-    </div>
-
-    <div class="divider"><span>Produktkort</span></div>
-    <div class="product-card-demo">
-      <div class="product-card"><div class="product-img"><span>produktbild</span></div><div class="product-body"><span class="product-tag">Premium</span><h4>Basmati Premium</h4><p>Extra långkornigt basmatiris, naturligt åldrat för optimal arom och smak.</p><a href="#">Begär pris →</a></div></div>
-      <div class="product-card"><div class="product-img"><span>produktbild</span></div><div class="product-body"><span class="product-tag">Klassisk</span><h4>Sella Basmati</h4><p>Parboiled basmati med extra lång kornlängd. Restaurangernas favorit.</p><a href="#">Begär pris →</a></div></div>
-      <div class="product-card"><div class="product-img"><span>produktbild</span></div><div class="product-body"><span class="product-tag">Guld</span><h4>Golden Basmati</h4><p>Gyllene sella-ris med distinkt textur och fyllig smak.</p><a href="#">Begär pris →</a></div></div>
-    </div>
-
-    <div class="divider"><span>Kundröst</span></div>
-    <div class="testimonial-demo">
-      <blockquote>Maria's Kitchen levererar konsekvent ris av toppkvalitet. Sedan vi bytte leverantör har vi märkt en tydlig skillnad i både arom och kornlängd.</blockquote>
-      <div class="author">Ahmed Hassan <span>— Kökschef, Restaurant Karma, Stockholm</span></div>
-    </div>
-  </section>
-
-  <footer class="guide-footer">
-    <div class="brand">Maria's <em>Kitchen</em></div>
-    <p>Styleguide — 15 temaförslag för jämförelse</p>
-  </footer>
+<div class="page-header">
+  <h1>The Harvest — Koncept 4</h1>
+  <div class="subtitle">Minimalistiskt • Rent • Råvara</div>
 </div>
 
-<script>
-const themes = {
-  saffron: {
-    name:'Warm Saffron', vibe:'Warm luxury, klassiskt men modernt',
-    desc:'Varmt guld, jordnära toner, elegant serif. Cormorant Garamond är en tunn, högkontrastserif med klassisk elegans — varje bokstav andas lyx. Libre Franklin ger neutral läsbarhet som body. Anybody adderar ett modernt geometriskt öga till labels och knappar.',
-    fonts:'Cormorant Garamond · Libre Franklin · Anybody',
-    fontDisplay:'Cormorant Garamond', fontBody:'Libre Franklin', fontAccent:'Anybody',
-    primary:[
-      {bg:'#C8860A',hex:'#C8860A',name:'Saffron',desc:'Primär accent',lt:true},
-      {bg:'#2A2118',hex:'#2A2118',name:'Charcoal',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#3B2F20',hex:'#3B2F20',name:'Earth',desc:'Brödtext',lt:true},
-      {bg:'#F5F0E8',hex:'#F5F0E8',name:'Grain',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#5C4A35',hex:'#5C4A35',name:'Bark',desc:'Underrubriker',lt:true},
-      {bg:'#8B7355',hex:'#8B7355',name:'Clay',desc:'Tertiär text',lt:true},
-      {bg:'#E8B84A',hex:'#E8B84A',name:'Saffron Light',desc:'Accent på mörk bg',lt:false},
-      {bg:'#7A8B6F',hex:'#7A8B6F',name:'Sage',desc:'Grön reservaccent',lt:true},
-      {bg:'#FFFDF7',hex:'#FFFDF7',name:'Cream',desc:'Sidbakgrund',lt:false},
-      {bg:'#EDE6D8',hex:'#EDE6D8',name:'Parchment',desc:'Borders',lt:false}
-    ]
-  },
-  forest: {
-    name:'Deep Forest', vibe:'Naturlig, hållbar, jordnära kraft',
-    desc:'Djup skogsgrön palett. DM Serif Display har en tung, dramatisk karaktär med tjocka horisontella streck — varje rubrik känns som ett statement. Plus Jakarta Sans är rund och vänlig, balanserar den tunga displayen. Syne har kantiga, breda former som labels — helt annorlunda känsla.',
-    fonts:'DM Serif Display · Plus Jakarta Sans · Syne',
-    fontDisplay:'DM Serif Display', fontBody:'Plus Jakarta Sans', fontAccent:'Syne',
-    primary:[
-      {bg:'#2D6A4F',hex:'#2D6A4F',name:'Forest',desc:'Primär accent',lt:true},
-      {bg:'#1B2A21',hex:'#1B2A21',name:'Pine',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#3D4F44',hex:'#3D4F44',name:'Moss',desc:'Underrubriker',lt:true},
-      {bg:'#F0EDE5',hex:'#F0EDE5',name:'Linen',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#52B788',hex:'#52B788',name:'Emerald',desc:'Ljus accent, badges',lt:false},
-      {bg:'#6B7D72',hex:'#6B7D72',name:'Stone',desc:'Tertiär text',lt:true},
-      {bg:'#B08D57',hex:'#B08D57',name:'Harvest',desc:'Varm sekundär accent',lt:true},
-      {bg:'#E8DCC8',hex:'#E8DCC8',name:'Wheat',desc:'Ljus bakgrund',lt:false},
-      {bg:'#FAFAF5',hex:'#FAFAF5',name:'Ivory',desc:'Sidbakgrund',lt:false},
-      {bg:'#E2DDD3',hex:'#E2DDD3',name:'Sand',desc:'Borders',lt:false}
-    ]
-  },
-  midnight: {
-    name:'Midnight Spice', vibe:'Kryddigt, redaktionellt, rustik elegans',
-    desc:'Terrakotta och choklad. Playfair Display har dramatiskt tjocka serifformer med hög kontrast — helt annorlunda från Cormorants tunna elegans. Rubriker renderas bold+italic för maximal drama. Source Serif 4 som brödtext ger en dubbel-serif-känsla som en mattidskrift. Outfit som accent är rent geometriskt.',
-    fonts:'Playfair Display · Source Serif 4 · Outfit',
-    fontDisplay:'Playfair Display', fontBody:'Source Serif 4', fontAccent:'Outfit',
-    primary:[
-      {bg:'#C45E3E',hex:'#C45E3E',name:'Terracotta',desc:'Primär accent',lt:true},
-      {bg:'#1C1512',hex:'#1C1512',name:'Espresso',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#4A3B32',hex:'#4A3B32',name:'Cacao',desc:'Underrubriker',lt:true},
-      {bg:'#F2EDE6',hex:'#F2EDE6',name:'Oat',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#E8946E',hex:'#E8946E',name:'Apricot',desc:'Ljus accent',lt:false},
-      {bg:'#7D6B5E',hex:'#7D6B5E',name:'Driftwood',desc:'Tertiär text',lt:true},
-      {bg:'#C8A87C',hex:'#C8A87C',name:'Cardamom',desc:'Varm accent',lt:false},
-      {bg:'#EDE2D2',hex:'#EDE2D2',name:'Parchment',desc:'Ljus bakgrund',lt:false},
-      {bg:'#FAF8F5',hex:'#FAF8F5',name:'Cream',desc:'Sidbakgrund',lt:false},
-      {bg:'#E5DDD3',hex:'#E5DDD3',name:'Sandstone',desc:'Borders',lt:false}
-    ]
-  },
-  indigo: {
-    name:'Clean Indigo', vibe:'Professionell, modern, skandinavisk tech',
-    desc:'Indigoblått, corporate-vänligt. Fraunces är ett optiskt serif-typsnitt med mjuka, "wobbly" organiska former och tung vikt — helt olikt klassiska serifer. Bricolage Grotesque är en bred, varm sans-serif med variabel optisk storlek. Space Mono är monospace som ger teknisk precision till labels och knappar.',
-    fonts:'Fraunces · Bricolage Grotesque · Space Mono',
-    fontDisplay:'Fraunces', fontBody:'Bricolage Grotesque', fontAccent:'Space Mono',
-    primary:[
-      {bg:'#4A5899',hex:'#4A5899',name:'Indigo',desc:'Primär accent',lt:true},
-      {bg:'#1A1D2E',hex:'#1A1D2E',name:'Navy',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#3E4258',hex:'#3E4258',name:'Slate',desc:'Underrubriker',lt:true},
-      {bg:'#F0F1F5',hex:'#F0F1F5',name:'Mist',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#7B8CC7',hex:'#7B8CC7',name:'Periwinkle',desc:'Ljus accent',lt:false},
-      {bg:'#6E7189',hex:'#6E7189',name:'Pewter',desc:'Tertiär text',lt:true},
-      {bg:'#C8860A',hex:'#C8860A',name:'Gold',desc:'Varm sekundär accent',lt:true},
-      {bg:'#F5F0E8',hex:'#F5F0E8',name:'Warm Linen',desc:'Kontrastbakgrund',lt:false},
-      {bg:'#FAFBFD',hex:'#FAFBFD',name:'Ice',desc:'Sidbakgrund',lt:false},
-      {bg:'#E2E3EA',hex:'#E2E3EA',name:'Silver',desc:'Borders',lt:false}
-    ]
-  },
-  burgundy: {
-    name:'Heritage Burgundy', vibe:'Tidlös, arvsrik, varm sophistication',
-    desc:'Djup burgundy och antikguld. Instrument Serif har tunn strichbredd med karaktärsfulla kursiver — känns handgjort och personligt. Karla är ett vänligt, lättläst humanistiskt sans-serif. Unbounded är ett helt unikt rundformat display-sans med "bubbliga" former som sticker ut totalt som label-typsnitt.',
-    fonts:'Instrument Serif · Karla · Unbounded',
-    fontDisplay:'Instrument Serif', fontBody:'Karla', fontAccent:'Unbounded',
-    primary:[
-      {bg:'#8B2E4F',hex:'#8B2E4F',name:'Burgundy',desc:'Primär accent',lt:true},
-      {bg:'#211419',hex:'#211419',name:'Oxblood',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#4A3540',hex:'#4A3540',name:'Plum',desc:'Underrubriker',lt:true},
-      {bg:'#F5EDEA',hex:'#F5EDEA',name:'Rose Dust',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#C06E8A',hex:'#C06E8A',name:'Blush',desc:'Ljus accent',lt:false},
-      {bg:'#806874',hex:'#806874',name:'Mauve',desc:'Tertiär text',lt:true},
-      {bg:'#B08D57',hex:'#B08D57',name:'Antique Gold',desc:'Varm accent',lt:true},
-      {bg:'#F0E5D5',hex:'#F0E5D5',name:'Champagne',desc:'Kontrastbakgrund',lt:false},
-      {bg:'#FDFAF8',hex:'#FDFAF8',name:'Pearl',desc:'Sidbakgrund',lt:false},
-      {bg:'#E8DDD8',hex:'#E8DDD8',name:'Ash',desc:'Borders',lt:false}
-    ]
-  },
-  copper: {
-    name:'Copper Minimal', vibe:'Skarp, avskalad, haute-couture-precision',
-    desc:'Koppar och off-white. Bodoni Moda har extrem kontrast mellan tunna och tjocka streck — haute-couture-typografi som skriker lyx. Inter som body är den ultimata "osynliga" sans-serifen. JetBrains Mono som accent ger teknisk edge med monospace — oväntat för en matbrand men mycket distinkt.',
-    fonts:'Bodoni Moda · Inter · JetBrains Mono',
-    fontDisplay:'Bodoni Moda', fontBody:'Inter', fontAccent:'JetBrains Mono',
-    primary:[
-      {bg:'#B87333',hex:'#B87333',name:'Copper',desc:'Primär accent',lt:true},
-      {bg:'#1A1714',hex:'#1A1714',name:'Charcoal',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#4A4238',hex:'#4A4238',name:'Walnut',desc:'Underrubriker',lt:true},
-      {bg:'#F3F0EC',hex:'#F3F0EC',name:'Bone',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#D4A574',hex:'#D4A574',name:'Peach',desc:'Ljus accent',lt:false},
-      {bg:'#7A7068',hex:'#7A7068',name:'Pewter',desc:'Tertiär text',lt:true},
-      {bg:'#96592A',hex:'#96592A',name:'Bronze',desc:'Djup accent',lt:true},
-      {bg:'#E5E0D8',hex:'#E5E0D8',name:'Fog',desc:'Borders',lt:false},
-      {bg:'#FCFBF9',hex:'#FCFBF9',name:'Snow',desc:'Sidbakgrund',lt:false},
-      {bg:'#DDD8D0',hex:'#DDD8D0',name:'Stone',desc:'Avskiljare',lt:false}
-    ]
-  },
-  ocean: {
-    name:'Ocean Calm', vibe:'Mjuk, vänlig, Skandinavisk kust',
-    desc:'Havsblå palett med mjuka former. Young Serif har varma, rundade serifformer med en handgjord känsla — som handskrivna skyltar på en kustrestaurang. Be Vietnam Pro är en modern sans-serif med utmärkt läsbarhet. Rubik som accent har mjukt rundade hörn. Allt har stor border-radius för en vänlig, inbjudande känsla.',
-    fonts:'Young Serif · Be Vietnam Pro · Rubik',
-    fontDisplay:'Young Serif', fontBody:'Be Vietnam Pro', fontAccent:'Rubik',
-    primary:[
-      {bg:'#2A7B9B',hex:'#2A7B9B',name:'Ocean',desc:'Primär accent',lt:true},
-      {bg:'#142832',hex:'#142832',name:'Deep Sea',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#2E4A58',hex:'#2E4A58',name:'Storm',desc:'Underrubriker',lt:true},
-      {bg:'#EDF4F7',hex:'#EDF4F7',name:'Seafoam',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#5CADC7',hex:'#5CADC7',name:'Sky',desc:'Ljus accent',lt:false},
-      {bg:'#5E7A88',hex:'#5E7A88',name:'Driftwood',desc:'Tertiär text',lt:true},
-      {bg:'#C49A6C',hex:'#C49A6C',name:'Sand',desc:'Varm accent',lt:false},
-      {bg:'#D8E5EC',hex:'#D8E5EC',name:'Mist',desc:'Borders',lt:false},
-      {bg:'#F9FCFD',hex:'#F9FCFD',name:'Foam',desc:'Sidbakgrund',lt:false},
-      {bg:'#C8D8E0',hex:'#C8D8E0',name:'Pebble',desc:'Avskiljare',lt:false}
-    ]
-  },
-  charcoal: {
-    name:'Charcoal Editorial', vibe:'Tidningselegans, intellektuell, lätt',
-    desc:'Mörkt kol med guld. Crimson Pro är en smal, lätt serif med tidningskaraktär — italic weight 300 ger den en poetisk, litterär känsla som skiljer sig helt från tjockare serifer. Manrope är en modern geometrisk sans-serif. Archivo som accent är tight och bold med kondenserad känsla.',
-    fonts:'Crimson Pro · Manrope · Archivo',
-    fontDisplay:'Crimson Pro', fontBody:'Manrope', fontAccent:'Archivo',
-    primary:[
-      {bg:'#D4A03C',hex:'#D4A03C',name:'Ochre',desc:'Primär accent',lt:false},
-      {bg:'#18180F',hex:'#18180F',name:'Charcoal',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#3A3A2E',hex:'#3A3A2E',name:'Graphite',desc:'Underrubriker',lt:true},
-      {bg:'#F0EFEA',hex:'#F0EFEA',name:'Parchment',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#E8C86C',hex:'#E8C86C',name:'Gold Light',desc:'Ljus accent',lt:false},
-      {bg:'#6E6E5E',hex:'#6E6E5E',name:'Ash',desc:'Tertiär text',lt:true},
-      {bg:'#B8882E',hex:'#B8882E',name:'Amber',desc:'Djup accent',lt:true},
-      {bg:'#DEDED4',hex:'#DEDED4',name:'Linen',desc:'Borders',lt:false},
-      {bg:'#FAFAF8',hex:'#FAFAF8',name:'Paper',desc:'Sidbakgrund',lt:false},
-      {bg:'#D0D0C6',hex:'#D0D0C6',name:'Cement',desc:'Avskiljare',lt:false}
-    ]
-  },
-  rosegold: {
-    name:'Rose Gold', vibe:'Feminin elegans, mjuk sofistikation',
-    desc:'Rosa guld och puderrosa. Spectral har klassiska, litterära proportioner med fin detaljering — elegant utan att vara stel. Albert Sans är en modern geometrisk sans-serif med rena linjer och bra läsbarhet. Red Hat Display som accent har karaktärsfulla, rundade former med en modern tech-känsla.',
-    fonts:'Spectral · Albert Sans · Red Hat Display',
-    fontDisplay:'Spectral', fontBody:'Albert Sans', fontAccent:'Red Hat Display',
-    primary:[
-      {bg:'#B76E79',hex:'#B76E79',name:'Rose',desc:'Primär accent',lt:true},
-      {bg:'#231C1E',hex:'#231C1E',name:'Dark Plum',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#4E4042',hex:'#4E4042',name:'Mauve',desc:'Underrubriker',lt:true},
-      {bg:'#F7F0EE',hex:'#F7F0EE',name:'Blush',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#D4A0AA',hex:'#D4A0AA',name:'Petal',desc:'Ljus accent',lt:false},
-      {bg:'#8A787A',hex:'#8A787A',name:'Thistle',desc:'Tertiär text',lt:true},
-      {bg:'#C4956A',hex:'#C4956A',name:'Caramel',desc:'Varm accent',lt:false},
-      {bg:'#EAE0DD',hex:'#EAE0DD',name:'Powder',desc:'Borders',lt:false},
-      {bg:'#FDFBFA',hex:'#FDFBFA',name:'Pearl',desc:'Sidbakgrund',lt:false},
-      {bg:'#DDD2CE',hex:'#DDD2CE',name:'Silk',desc:'Avskiljare',lt:false}
-    ]
-  },
-  slate: {
-    name:'Slate Modern', vibe:'Robust, jordig, nutida craft',
-    desc:'Dämpad olivgrön, jordiga toner. Bitter är en kompakt slab-serif med tjocka, kantiga serifformer — ger en robust, hantverksmässig känsla helt olik eleganta serifer. Work Sans som body är ren och geometrisk. Archivo som accent i tung vikt (800) ger en kondenserad, kraftfull känsla till labels.',
-    fonts:'Bitter · Work Sans · Archivo',
-    fontDisplay:'Bitter', fontBody:'Work Sans', fontAccent:'Archivo',
-    primary:[
-      {bg:'#5A6B4F',hex:'#5A6B4F',name:'Olive',desc:'Primär accent',lt:true},
-      {bg:'#1E2118',hex:'#1E2118',name:'Dark Moss',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#3C4236',hex:'#3C4236',name:'Fern',desc:'Underrubriker',lt:true},
-      {bg:'#EEEEE8',hex:'#EEEEE8',name:'Oatmeal',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#8A9E7C',hex:'#8A9E7C',name:'Sage',desc:'Ljus accent',lt:false},
-      {bg:'#6A7264',hex:'#6A7264',name:'Stone',desc:'Tertiär text',lt:true},
-      {bg:'#B89B6A',hex:'#B89B6A',name:'Wheat',desc:'Varm accent',lt:false},
-      {bg:'#DDDDD5',hex:'#DDDDD5',name:'Clay',desc:'Borders',lt:false},
-      {bg:'#FAFBF9',hex:'#FAFBF9',name:'Linen',desc:'Sidbakgrund',lt:false},
-      {bg:'#CCCCC4',hex:'#CCCCC4',name:'Pebble',desc:'Avskiljare',lt:false}
-    ]
-  },
-  matilda: {
-    name:'Matilda (matildamigration.com)', vibe:'Modern SaaS, lekfullt professionell, tech-vänlig',
-    desc:'Inspirerad av matildamigration.com. Lila/violett primärfärg med rena vita ytor och rundade former. Lexend som display — designad för optimal läsbarhet med breda, öppna former. Figtree som body är mjuk och vänlig. Urbanist som accent ger modern, geometrisk precision. Pill-formade knappar (100px radius) och stora border-radius ger SaaS-känsla.',
-    fonts:'Lexend · Figtree · Urbanist',
-    fontDisplay:'Lexend', fontBody:'Figtree', fontAccent:'Urbanist',
-    primary:[
-      {bg:'#6B4EFF',hex:'#6B4EFF',name:'Violet',desc:'Primär accent',lt:true},
-      {bg:'#1A1333',hex:'#1A1333',name:'Deep Purple',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#3E3660',hex:'#3E3660',name:'Plum',desc:'Underrubriker',lt:true},
-      {bg:'#F0EEFF',hex:'#F0EEFF',name:'Lavender',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#9B8AFF',hex:'#9B8AFF',name:'Periwinkle',desc:'Ljus accent',lt:false},
-      {bg:'#7A72A0',hex:'#7A72A0',name:'Wisteria',desc:'Tertiär text',lt:true},
-      {bg:'#FF6B6B',hex:'#FF6B6B',name:'Coral',desc:'Sekundär varm accent',lt:false},
-      {bg:'#E5E0F5',hex:'#E5E0F5',name:'Mist',desc:'Borders',lt:false},
-      {bg:'#FAFAFF',hex:'#FAFAFF',name:'Ghost White',desc:'Sidbakgrund',lt:false},
-      {bg:'#D0CCE8',hex:'#D0CCE8',name:'Lilac',desc:'Avskiljare',lt:false}
-    ]
-  },
-  cynthia: {
-    name:'Cynthia (cynthiaburnsdesign.com)', vibe:'Organisk botanisk, raffinerad, naturlig elegans',
-    desc:'Inspirerad av cynthiaburnsdesign.com. Oliv/salvia-grön palett med cream-bakgrunder. Gilda Display är en klassisk, elegant display-serif med tunn strichbredd och hög x-höjd — botanisk känsla, som graverade skyltar. Hanken Grotesk är rent och läsbart. Geologica som accent har mjuka, organiska former med bred vikt-range. Minimal border-radius, extra bred letter-spacing på labels.',
-    fonts:'Gilda Display · Hanken Grotesk · Geologica',
-    fontDisplay:'Gilda Display', fontBody:'Hanken Grotesk', fontAccent:'Geologica',
-    primary:[
-      {bg:'#5C6B4A',hex:'#5C6B4A',name:'Olive',desc:'Primär accent',lt:true},
-      {bg:'#1E2419',hex:'#1E2419',name:'Evergreen',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#3D4635',hex:'#3D4635',name:'Fern',desc:'Underrubriker',lt:true},
-      {bg:'#F2EFEA',hex:'#F2EFEA',name:'Linen',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#8A9B72',hex:'#8A9B72',name:'Sage',desc:'Ljus accent',lt:false},
-      {bg:'#6E7A62',hex:'#6E7A62',name:'Moss',desc:'Tertiär text',lt:true},
-      {bg:'#C4A872',hex:'#C4A872',name:'Brass',desc:'Varm metallaccent',lt:false},
-      {bg:'#E0DDD5',hex:'#E0DDD5',name:'Stone',desc:'Borders',lt:false},
-      {bg:'#FDFCF8',hex:'#FDFCF8',name:'Cream',desc:'Sidbakgrund',lt:false},
-      {bg:'#D4D0C6',hex:'#D4D0C6',name:'Pebble',desc:'Avskiljare',lt:false}
-    ]
-  },
-  noir: {
-    name:'Noir Deco', vibe:'Dramatisk, art deco, filmisk svart-guld',
-    desc:'Nästan svart bakgrund med guld. Noto Serif Display i weight 900 har massiva, skulpturala serifformer — varje rubrik känns som filmpostertext. Atkinson Hyperlegible är designad för maximal läsbarhet (skapad av Braille Institute) — oväntat val men ger funktionell kontrast. Wix Madefor Display som accent är stram och professionell.',
-    fonts:'Noto Serif Display · Atkinson Hyperlegible · Wix Madefor Display',
-    fontDisplay:'Noto Serif Display', fontBody:'Atkinson Hyperlegible', fontAccent:'Wix Madefor Display',
-    primary:[
-      {bg:'#C9A84C',hex:'#C9A84C',name:'Gold',desc:'Primär accent',lt:true},
-      {bg:'#0F0F0D',hex:'#0F0F0D',name:'Onyx',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#2E2E28',hex:'#2E2E28',name:'Charcoal',desc:'Underrubriker',lt:true},
-      {bg:'#F0EDE5',hex:'#F0EDE5',name:'Ivory',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#E0C878',hex:'#E0C878',name:'Champagne',desc:'Ljus accent',lt:false},
-      {bg:'#686860',hex:'#686860',name:'Pewter',desc:'Tertiär text',lt:true},
-      {bg:'#A88B3C',hex:'#A88B3C',name:'Antique Gold',desc:'Djup accent',lt:true},
-      {bg:'#DDDDD5',hex:'#DDDDD5',name:'Silver',desc:'Borders',lt:false},
-      {bg:'#FAFAF8',hex:'#FAFAF8',name:'Pearl',desc:'Sidbakgrund',lt:false},
-      {bg:'#C8C8C0',hex:'#C8C8C0',name:'Ash',desc:'Avskiljare',lt:false}
-    ]
-  },
-  blush: {
-    name:'Soft Blush', vibe:'Mjuk, luftig, delikat värme',
-    desc:'Dämpad terrakotta-rosa med cream. Newsreader i light italic ger en poetisk, tidskriftskänsla med fina serifdetaljer — mjukare och mer personligt än klassiska serifer. Lexend som body är ultra-läsbar med öppna former. Figtree som accent har en mjukt rundad karaktär. Stora border-radius för en vänlig, modern känsla.',
-    fonts:'Newsreader · Lexend · Figtree',
-    fontDisplay:'Newsreader', fontBody:'Lexend', fontAccent:'Figtree',
-    primary:[
-      {bg:'#B88A7D',hex:'#B88A7D',name:'Terracotta',desc:'Primär accent',lt:true},
-      {bg:'#2A2120',hex:'#2A2120',name:'Espresso',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#4E403D',hex:'#4E403D',name:'Walnut',desc:'Underrubriker',lt:true},
-      {bg:'#F7F2EF',hex:'#F7F2EF',name:'Blush',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#D4AEA3',hex:'#D4AEA3',name:'Petal',desc:'Ljus accent',lt:false},
-      {bg:'#8A7A76',hex:'#8A7A76',name:'Taupe',desc:'Tertiär text',lt:true},
-      {bg:'#C4956A',hex:'#C4956A',name:'Caramel',desc:'Varm accent',lt:false},
-      {bg:'#EAE2DE',hex:'#EAE2DE',name:'Powder',desc:'Borders',lt:false},
-      {bg:'#FDFCFB',hex:'#FDFCFB',name:'Cream',desc:'Sidbakgrund',lt:false},
-      {bg:'#D8CEC8',hex:'#D8CEC8',name:'Linen',desc:'Avskiljare',lt:false}
-    ]
-  },
-  teak: {
-    name:'Teak Craft', vibe:'Varm hantverk, dubbel-serif, handgjord karaktär',
-    desc:'Varm teak/trä-palett. Prata är en bred display-serif med dramatiska proportioner och tunna horisontella streck — ger en exklusiv, handgjord känsla. Cardo som body är en klassisk bok-serif (dubbel-serif combo!) som ger en litterär, handgjord känsla genom hela sidan. Rubik som accent med sina mjukt rundade former ger modern kontrast.',
-    fonts:'Prata · Cardo · Rubik',
-    fontDisplay:'Prata', fontBody:'Cardo', fontAccent:'Rubik',
-    primary:[
-      {bg:'#8B6B42',hex:'#8B6B42',name:'Teak',desc:'Primär accent',lt:true},
-      {bg:'#1C1810',hex:'#1C1810',name:'Walnut',desc:'Primärtext, hero-bg',lt:true},
-      {bg:'#443C30',hex:'#443C30',name:'Mahogany',desc:'Underrubriker',lt:true},
-      {bg:'#F2EDE5',hex:'#F2EDE5',name:'Parchment',desc:'Sekundär bakgrund',lt:false}
-    ],
-    secondary:[
-      {bg:'#B89B6A',hex:'#B89B6A',name:'Honey',desc:'Ljus accent',lt:false},
-      {bg:'#7A6E5E',hex:'#7A6E5E',name:'Driftwood',desc:'Tertiär text',lt:true},
-      {bg:'#6E5334',hex:'#6E5334',name:'Umber',desc:'Djup accent',lt:true},
-      {bg:'#E2DCD2',hex:'#E2DCD2',name:'Sand',desc:'Borders',lt:false},
-      {bg:'#FCFAF6',hex:'#FCFAF6',name:'Cream',desc:'Sidbakgrund',lt:false},
-      {bg:'#D0C8BC',hex:'#D0C8BC',name:'Clay',desc:'Avskiljare',lt:false}
-    ]
-  }
-};
+<div class="section-label">Färgpalett</div>
+<div class="color-strip">
+  <div class="color-swatch" style="background:#1C2E1C; color:#F5F0E8;">#1C2E1C</div>
+  <div class="color-swatch" style="background:#2A3D2A; color:#F5F0E8;">#2A3D2A</div>
+  <div class="color-swatch" style="background:#C8A95C; color:#1C2E1C;">#C8A95C</div>
+  <div class="color-swatch" style="background:#F5F0E8; color:#1C2E1C; border:1px solid #ddd;">#F5F0E8</div>
+</div>
 
-function setTheme(key,btn){
-  document.body.setAttribute('data-theme',key);
-  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  const t=themes[key];
-  document.getElementById('badgeName').textContent=t.name;
-  document.getElementById('badgeVibe').textContent=t.vibe;
-  document.getElementById('themeTitle').textContent=t.name;
-  document.getElementById('themeDesc').textContent=t.desc;
-  document.getElementById('themeFonts').textContent=t.fonts;
-  document.getElementById('specDisplayName').textContent=t.fontDisplay;
-  document.getElementById('specBodyName').textContent=t.fontBody;
-  document.getElementById('specAccentName').textContent=t.fontAccent;
-  renderColors('primaryColors',t.primary);
-  renderColors('secondaryColors',t.secondary);
-}
+<!-- ═══════════════════════════════════════════ -->
+<!-- STACKED — grain on top                      -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-label">Logovarianter</div>
+<div class="logo-grid">
 
-function renderColors(id,colors){
-  document.getElementById(id).innerHTML=colors.map(c=>`
-    <div class="color-card">
-      <div class="color-swatch ${c.lt?'lt':'dt'}" style="background:${c.bg}" data-hex="${c.hex}"></div>
-      <div class="color-info"><h4>${c.name}</h4><p>${c.desc}</p></div>
-    </div>`).join('');
-}
+  <div class="logo-card">
+    <div class="label label-dark">#1 — Mörk bakgrund — Primär</div>
+    <div class="logo-display dark">
+      <div class="logo-inner">
+        <div class="wheat-stalk">
+          <svg width="33" height="90" viewBox="0 0 60 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 150 Q 30 80 50 10" stroke="#F5F0E8" stroke-width="1.5" stroke-linecap="round"/>
+            <ellipse cx="36" cy="120" rx="3" ry="6.5" transform="rotate(-18 36 120)" fill="#C8A95C"/>
+            <ellipse cx="40" cy="98" rx="3" ry="6.5" transform="rotate(-18 40 98)" fill="#C8A95C"/>
+            <ellipse cx="44" cy="74" rx="3" ry="6.5" transform="rotate(-18 44 74)" fill="#C8A95C"/>
+            <ellipse cx="47" cy="50" rx="2.5" ry="5.5" transform="rotate(-18 47 50)" fill="#C8A95C"/>
+            <ellipse cx="50" cy="28" rx="2" ry="5" transform="rotate(-18 50 28)" fill="#C8A95C"/>
+            <ellipse cx="26" cy="113" rx="3" ry="6.5" transform="rotate(18 26 113)" fill="#C8A95C"/>
+            <ellipse cx="28" cy="88" rx="3" ry="6.5" transform="rotate(18 28 88)" fill="#C8A95C"/>
+            <ellipse cx="32" cy="62" rx="2.5" ry="5.5" transform="rotate(18 32 62)" fill="#C8A95C"/>
+            <ellipse cx="36" cy="38" rx="2" ry="5" transform="rotate(18 36 38)" fill="#C8A95C"/>
+          </svg>
+        </div>
+        <div style="font-family:'Gilda Display',serif; font-size:32px; color:#F5F0E8; letter-spacing:4px; line-height:1; text-align:center;">Maria's</div>
+        <div style="font-family:'Gilda Display',serif; font-size:22px; font-style:italic; color:#C8A95C; letter-spacing:2px; margin-top:2px; text-align:center;">Kitchen</div>
+      </div>
+    </div>
+  </div>
 
-setTheme('saffron',document.querySelector('.tab-btn'));
-</script>
+  <div class="logo-card">
+    <div class="label label-light">#2 — Transparent — Förpackning</div>
+    <div class="logo-display checkerboard">
+      <div class="logo-inner">
+        <div class="wheat-stalk">
+          <svg width="33" height="90" viewBox="0 0 60 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 150 Q 30 80 50 10" stroke="#2A3D2A" stroke-width="1.5" stroke-linecap="round"/>
+            <ellipse cx="36" cy="120" rx="3" ry="6.5" transform="rotate(-18 36 120)" fill="#C8A95C"/>
+            <ellipse cx="40" cy="98" rx="3" ry="6.5" transform="rotate(-18 40 98)" fill="#C8A95C"/>
+            <ellipse cx="44" cy="74" rx="3" ry="6.5" transform="rotate(-18 44 74)" fill="#C8A95C"/>
+            <ellipse cx="47" cy="50" rx="2.5" ry="5.5" transform="rotate(-18 47 50)" fill="#C8A95C"/>
+            <ellipse cx="50" cy="28" rx="2" ry="5" transform="rotate(-18 50 28)" fill="#C8A95C"/>
+            <ellipse cx="26" cy="113" rx="3" ry="6.5" transform="rotate(18 26 113)" fill="#C8A95C"/>
+            <ellipse cx="28" cy="88" rx="3" ry="6.5" transform="rotate(18 28 88)" fill="#C8A95C"/>
+            <ellipse cx="32" cy="62" rx="2.5" ry="5.5" transform="rotate(18 32 62)" fill="#C8A95C"/>
+            <ellipse cx="36" cy="38" rx="2" ry="5" transform="rotate(18 36 38)" fill="#C8A95C"/>
+          </svg>
+        </div>
+        <div style="font-family:'Gilda Display',serif; font-size:32px; color:#1C2E1C; letter-spacing:4px; line-height:1; text-align:center;">Maria's</div>
+        <div style="font-family:'Gilda Display',serif; font-size:22px; font-style:italic; color:#C8A95C; letter-spacing:2px; margin-top:2px; text-align:center;">Kitchen</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- HORIZONTAL — grain left of text             -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-label">Horisontell — Ax till vänster</div>
+<div class="logo-grid">
+
+  <div class="logo-card">
+    <div class="label label-dark">#3 — Horisontell — Mörk</div>
+    <div class="logo-display dark">
+      <div class="logo-inner horizontal" style="gap:12px;">
+        <div class="wheat-stalk">
+          <svg width="20" height="56" viewBox="0 0 60 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 150 Q 30 80 50 10" stroke="#F5F0E8" stroke-width="1.5" stroke-linecap="round"/>
+            <ellipse cx="36" cy="120" rx="3" ry="6.5" transform="rotate(-18 36 120)" fill="#C8A95C"/>
+            <ellipse cx="40" cy="98" rx="3" ry="6.5" transform="rotate(-18 40 98)" fill="#C8A95C"/>
+            <ellipse cx="44" cy="74" rx="3" ry="6.5" transform="rotate(-18 44 74)" fill="#C8A95C"/>
+            <ellipse cx="47" cy="50" rx="2.5" ry="5.5" transform="rotate(-18 47 50)" fill="#C8A95C"/>
+            <ellipse cx="50" cy="28" rx="2" ry="5" transform="rotate(-18 50 28)" fill="#C8A95C"/>
+            <ellipse cx="26" cy="113" rx="3" ry="6.5" transform="rotate(18 26 113)" fill="#C8A95C"/>
+            <ellipse cx="28" cy="88" rx="3" ry="6.5" transform="rotate(18 28 88)" fill="#C8A95C"/>
+            <ellipse cx="32" cy="62" rx="2.5" ry="5.5" transform="rotate(18 32 62)" fill="#C8A95C"/>
+            <ellipse cx="36" cy="38" rx="2" ry="5" transform="rotate(18 36 38)" fill="#C8A95C"/>
+          </svg>
+        </div>
+        <div>
+          <div style="font-family:'Gilda Display',serif; font-size:32px; color:#F5F0E8; letter-spacing:2px; line-height:1; font-weight:400;">Maria's</div>
+          <div style="font-family:'Gilda Display',serif; font-size:22px; font-style:italic; color:#C8A95C; letter-spacing:2px; margin-top:2px;">Kitchen</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="logo-card">
+    <div class="label label-light">#4 — Horisontell — Transparent</div>
+    <div class="logo-display checkerboard">
+      <div class="logo-inner horizontal" style="gap:12px;">
+        <div class="wheat-stalk">
+          <svg width="20" height="56" viewBox="0 0 60 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 150 Q 30 80 50 10" stroke="#2A3D2A" stroke-width="1.5" stroke-linecap="round"/>
+            <ellipse cx="36" cy="120" rx="3" ry="6.5" transform="rotate(-18 36 120)" fill="#C8A95C"/>
+            <ellipse cx="40" cy="98" rx="3" ry="6.5" transform="rotate(-18 40 98)" fill="#C8A95C"/>
+            <ellipse cx="44" cy="74" rx="3" ry="6.5" transform="rotate(-18 44 74)" fill="#C8A95C"/>
+            <ellipse cx="47" cy="50" rx="2.5" ry="5.5" transform="rotate(-18 47 50)" fill="#C8A95C"/>
+            <ellipse cx="50" cy="28" rx="2" ry="5" transform="rotate(-18 50 28)" fill="#C8A95C"/>
+            <ellipse cx="26" cy="113" rx="3" ry="6.5" transform="rotate(18 26 113)" fill="#C8A95C"/>
+            <ellipse cx="28" cy="88" rx="3" ry="6.5" transform="rotate(18 28 88)" fill="#C8A95C"/>
+            <ellipse cx="32" cy="62" rx="2.5" ry="5.5" transform="rotate(18 32 62)" fill="#C8A95C"/>
+            <ellipse cx="36" cy="38" rx="2" ry="5" transform="rotate(18 36 38)" fill="#C8A95C"/>
+          </svg>
+        </div>
+        <div>
+          <div style="font-family:'Gilda Display',serif; font-size:32px; color:#1C2E1C; letter-spacing:2px; line-height:1; font-weight:400;">Maria's</div>
+          <div style="font-family:'Gilda Display',serif; font-size:22px; font-style:italic; color:#C8A95C; letter-spacing:2px; margin-top:2px;">Kitchen</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- INLINE HORIZONTAL — grain + text on one line -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-label">Horisontell inline — Ax + text på en rad</div>
+<div class="logo-grid">
+
+  <div class="logo-card">
+    <div class="label label-dark">#5 — Inline — Mörk</div>
+    <div class="logo-display dark" style="min-height: 280px;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <svg width="12" height="32" viewBox="0 0 60 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 150 Q 30 80 50 10" stroke="#F5F0E8" stroke-width="2" stroke-linecap="round"/>
+          <ellipse cx="36" cy="120" rx="3" ry="6.5" transform="rotate(-18 36 120)" fill="#C8A95C"/>
+          <ellipse cx="40" cy="98" rx="3" ry="6.5" transform="rotate(-18 40 98)" fill="#C8A95C"/>
+          <ellipse cx="44" cy="74" rx="3" ry="6.5" transform="rotate(-18 44 74)" fill="#C8A95C"/>
+          <ellipse cx="47" cy="50" rx="2.5" ry="5.5" transform="rotate(-18 47 50)" fill="#C8A95C"/>
+          <ellipse cx="50" cy="28" rx="2" ry="5" transform="rotate(-18 50 28)" fill="#C8A95C"/>
+          <ellipse cx="26" cy="113" rx="3" ry="6.5" transform="rotate(18 26 113)" fill="#C8A95C"/>
+          <ellipse cx="28" cy="88" rx="3" ry="6.5" transform="rotate(18 28 88)" fill="#C8A95C"/>
+          <ellipse cx="32" cy="62" rx="2.5" ry="5.5" transform="rotate(18 32 62)" fill="#C8A95C"/>
+          <ellipse cx="36" cy="38" rx="2" ry="5" transform="rotate(18 36 38)" fill="#C8A95C"/>
+        </svg>
+        <span style="font-family:'Gilda Display',serif; font-size:28px; letter-spacing:2px; font-weight:400; line-height:1; white-space:nowrap;"><span style="color:#F5F0E8;">Maria's</span> <span style="font-style:italic; color:#C8A95C;">Kitchen</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="logo-card">
+    <div class="label label-light">#6 — Inline — Transparent / Website</div>
+    <div class="logo-display checkerboard" style="min-height: 280px;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <svg width="12" height="32" viewBox="0 0 60 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 150 Q 30 80 50 10" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+          <ellipse cx="36" cy="120" rx="3" ry="6.5" transform="rotate(-18 36 120)" fill="#C8A95C"/>
+          <ellipse cx="40" cy="98" rx="3" ry="6.5" transform="rotate(-18 40 98)" fill="#C8A95C"/>
+          <ellipse cx="44" cy="74" rx="3" ry="6.5" transform="rotate(-18 44 74)" fill="#C8A95C"/>
+          <ellipse cx="47" cy="50" rx="2.5" ry="5.5" transform="rotate(-18 47 50)" fill="#C8A95C"/>
+          <ellipse cx="50" cy="28" rx="2" ry="5" transform="rotate(-18 50 28)" fill="#C8A95C"/>
+          <ellipse cx="26" cy="113" rx="3" ry="6.5" transform="rotate(18 26 113)" fill="#C8A95C"/>
+          <ellipse cx="28" cy="88" rx="3" ry="6.5" transform="rotate(18 28 88)" fill="#C8A95C"/>
+          <ellipse cx="32" cy="62" rx="2.5" ry="5.5" transform="rotate(18 32 62)" fill="#C8A95C"/>
+          <ellipse cx="36" cy="38" rx="2" ry="5" transform="rotate(18 36 38)" fill="#C8A95C"/>
+        </svg>
+        <span style="font-family:'Gilda Display',serif; font-size:28px; letter-spacing:2px; font-weight:400; line-height:1; white-space:nowrap;"><span style="color:#000000;">Maria's</span> <span style="font-style:italic; color:#C8A95C;">Kitchen</span></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 </body>
 </html>
